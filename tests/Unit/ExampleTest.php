@@ -1,16 +1,1 @@
-<?php
-
-namespace Tests\Unit;
-
-use PHPUnit\Framework\TestCase;
-
-class ExampleTest extends TestCase
-{
-    /**
-     * A basic test example.
-     */
-    public function test_that_true_is_true(): void
-    {
-        $this->assertTrue(true);
-    }
-}
+<?php\n\nnamespace Tests\Unit;\n\nuse PHPUnit\Framework\TestCase;\nuse App\Models\Example;\n\nclass ExampleTest extends TestCase\n{\n    /**\n     * Test basic example model functionality.\n     *\n     * @return void\n     */\n    public function testBasicExample()\n    {\n         = new Example;\n\n        // Add some example assertions here\n        ->assertEquals('expected result', ->doSomething());\n    }\n}
